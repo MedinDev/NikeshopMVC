@@ -1,0 +1,109 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+body{
+  color: #696969;
+}
+a:link {
+  color: #3b3420;
+  text-decoration: none;
+}
+a:visited {
+  color: #3b3420;
+  text-decoration: none;
+}
+a:hover {
+  color: #0d65c9;
+  text-decoration: none;
+}
+a:active {
+  color: #0d65c9;
+}
+a.order-button, a.order-button:hover{
+  color: #fdfcf7;
+}
+.productInfo, .action{
+  max-width: 200px;
+}
+p{
+  font-size: 0.8rem;
+}
+#orderProcess {
+  list-style: none;
+  padding: 0;
+  clear: both;
+}
+#orderProcess li {
+  color: #696969;
+  display: inline;
+  font-size: 1.2em;
+  margin-right: 15px;
+  padding: 3px 0px 0px 5px;
+}
+.step-number {
+    background-color: #edece8;
+    border: 1px solid #e6e4d9;
+    font-size: 1.5em;
+    margin-right: 5px;
+    padding: 3px 10px;
+}
+.current .step-number {
+    background-color: #0d65c9;
+    border-color: #0116d6;
+    color: #fefefe;
+} 
+.orderPageList{
+    padding-inline-start: 20px;
+}
+.actions .order-button{
+  margin-left:20px;
+}
+label[for="OrderQuantity"]{
+  padding-left: 15px;
+}
+#OrderQuantity{
+  margin: 0 15px;
+  max-width: 100px;
+}
+.order-calc{
+  display: inline-block;
+  margin: 0 10px;
+}
+.input-validation-error, .input-validation-error:focus {
+  background: #ffccba;
+  color: #0116d6;
+}
+.form-control.input-validation-error:focus{
+  border-color: #0116d6;
+  box-shadow: 0 0 0 0.2rem rgba(46, 75, 237, 0.5);
+}
+      
+.field-validation-error {
+  color: #0116d6;
+}
+.validation-summary-errors {
+  color: #0116d6;
+}
